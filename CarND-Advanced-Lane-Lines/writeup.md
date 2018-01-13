@@ -134,4 +134,4 @@ here's a [link to the challenge video result](./Testout/challenge.mp4)
 
 The color and gradient thresholding function is not perfect and can be improved. If the image is affected by strong light like the "harder_challenge.mp4", the thresholding result will be very terrible. The moving average filter I wrote need a good initialization to ensure a good performance, making the pipeline unstable with respect to the various and complicated real world situations.
 
-For me, the most critical part of this project is the color and gradient thresholding. If the result of this part is good, all steps after this will be very simple and robust. If I could have more time, I would try some more color space and thresholds.
+For me, the most critical part of this project is the color and gradient thresholding. If the result of this part is good, all steps after this will be very simple and robust. Another problem I considered is the generalization of the thresholds. The current thresholds I used might only work for this two vedios. If I could have more time, I would try some more color space and thresholds.
